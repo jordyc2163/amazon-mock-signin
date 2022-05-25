@@ -1,0 +1,132 @@
+body {
+    font-size: 13px;
+    line-height: 19px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    font-family: Arial,sans-serif;
+}
+
+.container1 {
+    display: flex;
+    position: relative;
+    width: 370px;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: flex;
+    border-top: 1px #ddd solid;
+    border-radius: 4px;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    gap: 20px;
+}
+
+.signin {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 10px 10px;
+    height: 500px
+}
+
+.insidesignin {
+    display: flex;
+    flex-direction: column;
+    border: 1px #ddd solid;
+    border-radius: 4px;
+    padding: 20px 26px;
+    justify-content: space-evenly;
+    height: 40vh;
+}
+
+.insidesignin > h1 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2px;
+    margin-bottom: 10px;
+}
+
+.passwordheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.passwordheader > a {
+    margin-top: 20px;
+}
+.legaltext {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+h1 {
+    margin: 0px;
+    font-weight: 400;
+}
+
+.links>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.links {
+    width: 300px;
+    position: relative;
+    right: 20px;
+}
+
+.copyrighttext {
+    position: relative;
+    bottom: 30px
+}
+
+.insidesignin button {
+    position: relative;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    z-index: 20;
+}
+.new_here {
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+.new_here::after {
+    content: "";
+    width: 100%
+}
+label {
+    font-weight: 600;
+    margin-top: 20px;
+}
+.signin ~ button {
+    position: relative;
+    bottom: 60px
+}
+button {
+    border-radius: 3px;
+    padding: 5px 6px;
+    border: 1px solid
+}
+picture {
+    display: block;
+    height: 120px;
+}
+img {
+    height: 25vh;
+    position: relative;
+    bottom: 10px;
+    width: 15vw
+}
